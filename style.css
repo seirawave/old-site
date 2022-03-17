@@ -1,8 +1,9 @@
-body {
 
-font-family: 'Orbitron', sans-serif;
-font-size: 20px;
+body {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
 }
+
 
 /* Header, башка  */
 .header {
@@ -36,31 +37,33 @@ font-size: 20px;
     color: #fff;
     text-decoration: none;
 }
+
+
+/*гребанный градиент, как же я его ненавижу*/
+
+.grad1ent {
+	position: absolute;
+	top: 100;
+	left: 100;
+	z-index: 100;
+}
+
+
+
 /*Фон*/
 
-.intro {
-    max-height: 100vh;
-    overflow: hidden;
-   }
-   
-   
-   .video {
-       position: relative;
-       z-index: 1;
-       padding-bottom: 56px;
-   }
-   
-   .video_media {
-   width: 100%;
-   height: auto;
-   filter: brightness(45%);
-   
-   position: absolute ;
-    top: 0;
-   left: 0;
-   }
+.video_media {
+	width: 100%;
+	height: auto;
+	filter: brightness(100%);
 
-   /*шо це такое*/
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+	  
+/*шо це такое*/
     
  .body1 {
     align-items: center;
@@ -99,7 +102,7 @@ font-size: 20px;
 	background-color: #ffffff;
 	max-width: 114px;
     height: 30px;
-	margin-top: 60px;
+	margin-top: 37px;
     
 	padding-left: 31px;
 	padding-right: 14px;
@@ -126,6 +129,37 @@ font-size: 20px;
 	max-width: 525px;
 }
 
+.body3 {
+    align-items: center;
+	background-color: #ffffff;
+	max-width: 79px;
+    height: 30px;
+	margin-top: 60px;
+    
+	padding-left: 31px;
+	padding-right: 14px;
+	margin-left: 837px;
+	margin-right: auto;
+    
+	border-radius: 4px;
+	position: unset;
+	left: 50%;
+	top: 50%;
+	transform: translate(-103%, 29%);
+
+ }
+ #links3 {
+	color: white;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.25;
+	display: block;
+	font-family: var(--font);
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	max-width: 525px;
+}
 
 /*Пнльки Тска...*/
 
@@ -153,12 +187,7 @@ font-size: 20px;
  text-align: left;
  color: White;
  
-
-
 }
-
-
-
 
 .link {
 	display: block;
@@ -213,5 +242,26 @@ font-size: 20px;
     margin-left: 5px;
     transition: all 0.15s ease;
     opacity: 100%;
+}
+
+.list {
+	padding-left: 727px;
+	color: #7e7e7e;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1.3em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+.link-other {
+
+
+	color: white;
 }
 
